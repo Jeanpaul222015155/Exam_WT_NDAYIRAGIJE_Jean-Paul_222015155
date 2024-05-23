@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen, tv, projection, handheld, print"/>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact us</title>
+  <style>
+     a {
+      padding: 7px;
+      color: white;
+      background-color: turquoise;
+      text-decoration: none;
+      margin-right: 5px;
+    }
+
+    a:link {
+      color: brown;
+    }
+
+    a:visited {
+      color: purple;
+    }
+
+    a:hover {
+      background-color:orange;
+      text-decoration: underline;
+    }
+
+    a:active {
+      background-color: red;
+    }
+
+    button.btn {
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+
+    input.form-control {
+      padding: 10px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      border: 2px solid black;
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      background-color: orange;
+    }
+
+    td:first-child {
+      background-color:yellow;
+      color: white;
+    }
+
+    tr:hover {
+      background-color:orange;
+    }
+
+    section {
+      padding: 20px;
+      border-bottom: 3px solid #ddd;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color: blue;
+      color: white;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color:blue;
+      color: white;
+    }
+
+    .navbar {
+      list-style-type: none;
+      padding: 0;
+      text-align: center;
+      margin: 0;
+    }
+
+    .navbar li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color:yellow;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {
+      background-color:orange;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .dropdown:hover a {
+      background-color: orange;
+      color: green;
+    }
+
+    .search-form {
+      text-align: right;
+      padding: 10px;
+    }
+
+    @media (max-width: 768px) {
+      .navbar li {
+        display: block;
+        margin-bottom: 5px;
+      }
+    }
+  </style>
+</head>
+
+<body style="background-image: url('./Images/c.jpeg'); background-size: cover;">
+
+  <header>
+    <div>
+      <img src="./Images/a.jpg" width="90" height="60" alt="Logo">
+    </div>
+
+    <ul class="navbar">
+      <li style="display: inline,margin-right:  5px;"><a href="./home.html">HOME</a></li>
+    <li style="display: inline; margin-right: 5px;"><a href="./about us.html">ABOUT US</a></li>
+    <li style="display: inline; margin-right: 5px;"><a href="./contact us.html">CONTACT US</a></li>
+    <li style="display: inline; margin-right: 5px;"><a href="./our sevices.html">OUR SERVICES</a></li>
+    <li style="display: inline; margin-right: 5px;"><a href="./view tables.html">VIEW TABLES</a></li>
+      <li class="dropdown">
+        <a href="#">Settings</a>
+        <div class="dropdown-content">
+          <a href="login.html">Login</a>
+          <a href="register.html">Register</a>
+          <a href="logout.php">Logout</a>
+        </div>
+      </li>
+    </ul>
+  </header>
+<div class="search-form">
+      <form role="search" action="search.php" method="GET">
+        <input class="form-control" type="search" placeholder="Search..." aria-label="Search" name="query">
+        <button class="btn" type="submit">Search</button>
+      </form>
+    </div>
+<section>
+	<h2><bold><u> OUR CONTACT US</u></bold></h2>
+<ul></ul>
+  <li>Address: At kigali Nyarugenge KG115</li>
+  <li>Phone: +250 781737965</li>
+  <li>Email: propertymangement@gmail.com</li>
+</ul>
+
+<form action="submit_contact" method="POST">
+  <label for="name">Names:</label><br>
+  <input type="text" id="name" name="name" required><br>
+
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" required><br>
+
+  <label for="phone">Telephone:</label><br>
+  <input type="tel" id="phone" name="phone"><br>
+
+  <label for="message">Message:</label><br>
+  <textarea id="message" name="message" rows="4" required></textarea>
+
+  <input type="submit" value="send">
+</form>
+   <p>Connect with us on social media or social networking platforms:
+      <a href="https://www.twitter.com/propertymangement">Twitter</a>
+      <a href="https://www.facebook.com/propertymangement">Facebook</a>
+      <a href="https://www.instagram.com/propertymangement">Instagram</a>
+      <a href="https://www.linkedin.com/propertymangement">LinkedIn</a>
+    </p>
+</section>
+
+<footer>
+  <center> 
+    <b><h2>UR CBE BIT &copy, 2024 &reg, Designer by: @Jean Paul NDAYIRAGIJE 222015155</h2></b>
+  </center>
+</footer>
+
+</body>
+</html>
+

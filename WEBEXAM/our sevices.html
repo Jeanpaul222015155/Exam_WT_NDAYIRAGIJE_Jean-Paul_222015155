@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Linking the external stylesheet for various media types -->
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen, tv, projection, handheld, print"/>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Our services</title>
+  <style>
+        /* Basic styles for anchor tags */
+    /* NDAYIRAGIJE Jean paul 222015155 GROUP B WEB_TEC */
+    a {
+      padding: 7px;
+      color: white;
+      background-color: turquoise;
+      text-decoration: none;
+      margin-right: 5px;
+    }
+     /* Styles for unvisited links */
+    a:link {
+      color: brown;
+    }
+/* Styles for visited links */
+    a:visited {
+      color: purple;
+    }
+
+ /* Styles for hover state of links */
+    a:hover {
+      background-color:orange;
+      text-decoration: underline;
+    }
+
+    a:active {
+      background-color: red;
+    }
+
+    button.btn {
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+
+    input.form-control {
+      padding: 10px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      border: 2px solid black;
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      background-color: orange;
+    }
+
+    td:first-child {
+      background-color:yellow;
+      color: white;
+    }
+
+    tr:hover {
+      background-color:orange;
+    }
+
+    section {
+      padding: 20px;
+      border-bottom: 3px solid #ddd;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color: blue;
+      color: white;
+    }
+   /* Footer styles */
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color:blue;
+      color: white;
+    }
+  /* Navigation bar styles */
+    .navbar {
+      list-style-type: none;
+      padding: 0;
+      text-align: center;
+      margin: 0;
+    }
+
+    .navbar li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+/* Styles for dropdown content */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color:yellow;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {
+      background-color:orange;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .dropdown:hover a {
+      background-color: orange;
+      color: green;
+    }
+/* Search form styles */
+    .search-form {
+      text-align: right;
+      padding: 10px;
+    }
+
+/* Media query for responsive navigation */
+    @media (max-width: 768px) {
+      .navbar li {
+        display: block;
+        margin-bottom: 5px;
+      }
+    }
+  </style>
+</head>
+
+<body style="background-image: url('./Images/pro.png'); background-size: cover;">
+
+  <!-- Header section with navigation menu and search form -->
+  <header>
+    <!-- Logo image -->
+    <div>
+      <img src="./Images/a.jpg" width="90" height="60" alt="Logo">
+    </div>
+
+     <!-- Navigation bar -->
+    <ul class="navbar">
+      <li style="display: inline,margin-right:  5px;"><a href="./home.html">HOME</a></li>
+    <li style="display: inline; margin-right: 5px;"><a href="./about us.html">ABOUT US</a></li>
+    <li style="display: inline; margin-right: 5px;"><a href="./contact us.html">CONTACT US</a></li>
+    <li style="display: inline; margin-right: 5px;"><a href="./our sevices.html">OUR SERVICES</a></li>
+    <li style="display: inline; margin-right: 5px;"><a href="./view tables.html">VIEW TABLES</a></li>
+      <li class="dropdown">
+        <a href="#">Settings</a>
+        <div class="dropdown-content">
+          <a href="login.html">Login</a>
+          <a href="register.html">Register</a>
+          <a href="logout.php">Logout</a>
+        </div>
+      </li>
+    </ul>
+  </header>
+  <!-- Search form -->
+<div class="search-form">
+      <form role="search" action="search.php" method="GET">
+        <input class="form-control" type="search" placeholder="Search..." aria-label="Search" name="query">
+        <button class="btn" type="submit">Search</button>
+      </form>
+    </div>
+     <h2 style="color: blue;"><bold><u> OUR SERVICES</u></bold></h2>
+
+<p><h3 style="color: black;">
+  To provide crucial services for efficient property operations. One key service is tenant management, which includes screening tenants, managing leases, and collecting rent. Screening ensures reliable tenants by verifying backgrounds and references. Lease management automates lease creation, renewal, and tracking, while rent collection offers online payments and automated invoicing.</h3></p>
+<p><h3>Maintenance management is another essential service, handling maintenance requests, work orders, and preventive maintenance. Tenants can submit requests online, tracked from submission to resolution. Work orders are scheduled and assigned to staff, ensuring timely repairs. Preventive maintenance schedules regular inspections to address potential issues proactively.
+</h3></p><br>
+
+<p><h3 style="color:black;">Financial management ensures profitability and transparency, covering budgeting, accounting, and reporting. Expense tracking and revenue management support accurate budgeting and financial forecasts. Automated accounting generates detailed reports and monthly statements for property owners, ensuring tax compliance and transparent communication. These services enhance tenant satisfaction, property upkeep, and financial success for property owners.
+</h3></p>
+  </section>
+   <!-- Footer section -->
+  <footer>
+    <p>&copy; 2024 | Designed by Jean Paul NDAYIRAGIJE 222015155</p>
+  </footer>
+
+</body>
+</html>
