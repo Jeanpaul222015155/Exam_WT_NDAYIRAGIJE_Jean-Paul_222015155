@@ -1,5 +1,12 @@
+ username:Njeanpaul
+ password: 222015155
+ above are used as user of privilege in database
+ 
+According to following information you can make login in this website.
+
 email: kamana@gmail.com
-password:Paul@11
+password: Paul@11
+
 According to above information you can make login in this website.
 To access all the details about the property management system, you need to create an account on the website. First, visit the homepage and click on "Create Account." Then, fill in the required information and click the "Register" button to complete the registration process. After registering, you can log in to the system to view all the information about the property management system.
 
