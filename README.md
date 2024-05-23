@@ -1,9 +1,7 @@
-email: kaneza@gmail.com
-password:KA
-
-acording to above informatiion you can make login in order to se all infomation about property managemnt system.
-when you need to know all innformation of it., you can search it , and you go to the home, click on create account
-and complete the fill after click on regiter buton inorder to make login in the system.
+email: kamana@gmail.com
+password:Paul@11
+According to above information you can make login in this website.
+To access all the details about the property management system, you need to create an account on the website. First, visit the homepage and click on "Create Account." Then, fill in the required information and click the "Register" button to complete the registration process. After registering, you can log in to the system to view all the information about the property management system.
 
 A property management system (PMS) streamlines the administration of rental properties,
 ensuring efficient management of daily operations. It automates tasks such as tenant management, lease information,
